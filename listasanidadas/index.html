@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Listas anidadas</title>
+</head>
+<body>
+       <ul>
+              <h1><li style="list-style: none;">Internet</li></h1> <!--El titulo es para hacer la letra bold-->
+              <h2><li style="list-style: none;">Contenido</li></h2> <!--El titulo es para hacer la letra bold-->
+              <ol start="1"><!--Lista ordenada-->
+                     <li >Principales protocolos</li><!--Define un item de la lista-->
+                            <li >Formas de conectarse</li>
+              </ol>
+       </ul>
+       <ol start="1"><!--Define un lista ordenada-->
+              <h2><li>Principales protocolos</li></h2> <!--El titulo es para hacer la letra bold-->
+              <ul style="list-style: inside;"> <!--Define una lista desordenada-->
+                     <li>Transmisión de ficheros:</li><ul ><li style="list-style: circle;">FTP</li></ul>
+                     <li>Correo electrónico:</li><ul style="list-style: circle;" ><li >IMAP</li><li >POP</li><li >SMTP</li></ul>
+              </ul>
+              <h2><li >Formas de conectarse</li></h2> <!--El titulo es para hacer la letra bold-->
+              <dl><!--Listas de descripción-->
+                     <dt > Red Telefónica Conmutada (TRC):</dt><!--Define un termino en la lista descriptiva-->
+                     <dd>La línea telefónica de toda la vida. Para acceder a Internet es necesario un módem.</dd><!--Describe un termino en la lista descriptiva-->
+                     <dt > Red Digital de Servicios Integrados (RDSI):</dt>
+                     <dd>Una línea telefónica especial. Para acceder a Internet es necesario un módem RDSI.</dd>
+                     <dt > Linea de Abonado Digital Asimétrica (ADSL):</dt>
+                     <dd>Se basa en la conversión de una línea RTC en una línea de alta velocidad. Para acceder a Internet es necesario un módem ADSL.</dd>
+                     <dt > Fibra Óptica:</dt>
+                     <dd>Una línea de fíbra óptica. Normalmente la fibra óptica no llega hastael usuario final, porlo que el término más apropiado es Fíbrica híbrida  coaxial..</dd>
+              </dl>
+              </ol>
+</body>
+</html>
